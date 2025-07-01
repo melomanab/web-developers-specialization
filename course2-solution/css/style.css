@@ -17,8 +17,15 @@ p {
 
 /*** Tablet layout ***/
 @media (min-width: 768px) and (max-width: 991px) {
-    p {
+    .col-tabl-6, .col-tabl-12{
+       float: left;
        background-color: blue;
+    }
+    .col-tabl-6{
+       width: 50%;
+    }
+    .col-tabl-12{
+       width: 100%;
     }
 }
 
