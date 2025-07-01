@@ -8,8 +8,10 @@ p {
 
 /*** Desktop layout ***/
 @media (min-width: 992px){
-    p {
-       background-color: red;
+    .col-desk-4{
+        width: 33.32%;
+        background-color: red;
+        float: left;
     }
 }
 
