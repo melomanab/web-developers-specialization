@@ -31,7 +31,9 @@ p {
 
 /*** Mobile layout ***/
 @media (max-width: 767px) {
-    p {
+    .col-mobi-12{
+       width: 100%;
+       float: left;
        background-color: green;
     }
 }
