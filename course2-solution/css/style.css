@@ -1,9 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
   background-color: green;
 }
 
 p {
    background-color: grey;
+   margin: 10px 10px 10px 10px;
+}
+
+#section1, #section2, #section3{
+    position: relative;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.anchor {
+    position: relative;
+    padding-bottom: 30px;
+    border: 5px solid black;
+}
+
+.section-title{
+   background-color: purple;
+   position: absolute;
+   top: 5px;
+   right: 10px;
 }
 
 /*** Desktop layout ***/
