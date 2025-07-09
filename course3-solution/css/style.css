@@ -53,14 +53,30 @@ body {
 }
 .section-tile {
     overflow: hidden;
+    position: relative;
   /*  border: solid 1px; */
 }
 
 .section-content{
+    position: relative;
     padding: 30px;
+    padding-top: 50px;
     margin: 10px;
     background-color: grey;
 }
+
+.section-title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #00000;
+}
+
 
 
 /** ----- END MAIN CONTENT ----- **/
