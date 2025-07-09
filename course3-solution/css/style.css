@@ -1,0 +1,66 @@
+
+body {
+
+}
+
+
+/** ----- HEADER ----- **/
+
+.navbar {
+    /* background-color: #008000; */
+    color: #000000;
+        border-radius: 0;
+        border: 0;
+}
+
+.navbar-header {
+    color: #000000;
+
+}
+.navbar-brand {
+    text-align: left;
+    color: #000000;
+    height: 80px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+   text-align: center;
+}
+.nav-list:hover, .nav-item:hover {
+  background: #E7E7E7;
+}
+
+
+/** ----- END HEADER ----- **/
+
+/** ----- MAIN CONTENT ----- **/
+
+.main-content{
+    overflow: hidden;
+}
+
+#menu-title{
+    margin-bottom: 30px;
+}
+.section-tile {
+    overflow: hidden;
+  /*  border: solid 1px; */
+}
+
+.section-content{
+    padding: 30px;
+    margin: 10px;
+    background-color: grey;
+}
+
+
+/** ----- END MAIN CONTENT ----- **/
