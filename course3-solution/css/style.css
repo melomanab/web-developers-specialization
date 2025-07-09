@@ -34,6 +34,7 @@ body {
 
 #nav-list {
    text-align: center;
+   font-size: 1.25em;
 }
 .nav-list:hover, .nav-item:hover {
   background: #E7E7E7;
